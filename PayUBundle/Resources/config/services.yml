@@ -1,0 +1,8 @@
+services:
+#    litigon_taxonomy.example:
+#        class: Litigon\TaxonomyBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+  PayU:
+    class: PayU\PayUBundle\Services\Pago
+    arguments: []
